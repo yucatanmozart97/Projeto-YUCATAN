@@ -1,126 +1,177 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .header {
-background-color: #000407;
-    color: #32b9cd;
-    border-bottom: 3px solid #32b9cd;
-}
-
-.header .container {
-    display: flex;
-    justify-content:space-between;
+  background-color: #000407;
+  color: #32B9CD;
+  border-bottom: 3px solid #32B9CD;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar {
-    display: flex;
-    list-style: none;
-    width: 400px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.agora {
-    font-weight: bold;
-
+ display: flex;
+ list-style: none;
+ width: 400px;
+ justify-content: space-between; 
+ align-items: center;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: #e3b062;
+  text-decoration: none;
+  color: #E3B062;
+}
+
+.agora {
+  font-weight: bold;
 }
 
 .banner {
-    background-image: url('imagem1.png');
-    background-size: cover;
+  background-image: url('imgs/bg-jelly-fish-para_outras_pags.png');
+  background-size: cover;
 }
+
+.imagens {
+ height: 500px;
+}
+
+.container.imagens {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.container.imagens h3 {
+padding-top: 70%;
+display: flex;
+justify-content: center;
+color: #E6005A;
+}
+
+.container.imagens span {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.container.imagens .missao {
+  margin-top: 7%;
+  background-image: url('imgs/planet-earth_color.png');
+  height: 36%;
+  width: 18%;
+  background-size: 100% 100%;
+  
+}
+
+.container.imagens .visao {
+  margin-top: 7%;
+  background-image: url('imgs/lightbulb_color.png');
+  height: 36%;
+  width: 18%;
+  background-size: 100% 100%;
+}
+
+.container.imagens .valores {
+  margin-top: 7%;
+  background-image: url('imgs/growth_color.png');
+  height: 36%;
+  width:  18%;
+  background-size: 100% 100%;
+}
+
+
 
 .banner .container {
-    height: 550px;
-    display: flex;
-    color: white;
-    align-items: center;
-}
-
-.banner p {
-    font-size: 36px;
-    width: 280px;
-    margin-left: 20%;
-    margin: 0
+  height: 550px;
+  display: flex;
+  color: white;
+  align-items: center;
 }
 
 .banner .container.login {
-    justify-content: center;
+  justify-content: center;
+}
+
+.banner .container.cadastro {
+  justify-content: center;
+}
+
+
+.banner p {
+ font-size: 36px;
+ width: 280px;
+ margin-left: 20%; 
 }
 
 .footer {
-background-color: #32b9cd;
-color: white;
+  background-color: #32B9CD;
+  color: white;
 }
 
 .footer .container {
-display: flex;
-height: 150px;
-align-items: center;
-justify-content: center;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    background-color: #e5e5e5;
-    color: #e6005a;
-    width: 400px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: #E5E5E5;
+  color: #E6005A;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card h2 {
-    margin: 0;
+  margin: 0;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
-    width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  width: 250px;
 }
 
 form label {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 form input {
-    margin-top: 8px;
-outline: 3px solid #32b9cd;
-border: 0;
-padding: 8px;
-border-radius: 10px;
+  margin-top: 8px;
+  outline: 3px solid #32B9CD;
+  border: 0;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 form button {
-    margin-top: 16px;
-    background-color: #e6005a;
-    color: white;
-    padding: 10px 15px;
-    width: 120px;
-    align-self: center;
-    font-size: 18px;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
+ margin-top: 16px;
+ background-color: #E6005A;
+ color: white;
+ padding: 10px 15px;
+ width: 120px;
+ align-self: center;
+ font-size: 18px;
+ border: 0;
+ border-radius: 5px;
+ cursor: pointer;
 }
-
-
-
-
-
